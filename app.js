@@ -31,8 +31,7 @@ const categories = [
     links: [
       { name: 'MedHub', url: 'https://uw.medhub.com', icon: 'https://cdn.simpleicons.org/medhub', fallback: 'MH' },
       { name: 'Workday', url: 'https://wd5.myworkday.com/uw/login.htmld', icon: 'https://cdn.simpleicons.org/workday', fallback: 'WD' },
-      { name: 'SailPoint', url: 'https://sailpoint.uwmedicine.org/', icon: 'https://cdn.simpleicons.org/sailpoint', fallback: 'SP' },
-      { name: 'ACGME Cases', url: 'https://apps.acgme.org/ads/', fallback: 'ACGME' },
+      { name: 'ABOS KSB', url: 'https://www.abos.org/ksb/', icon: 'https://www.abos.org/ksb/images/main-logo.svg', fallback: 'ABOS' },
     ]
   },
   {
