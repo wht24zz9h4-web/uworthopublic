@@ -79,6 +79,7 @@ function linkTemplate(link) {
         <img src="${link.icon}" alt="${link.name} logo" loading="lazy">
         <span class="external" aria-hidden="true">↗</span>
       </div>
+      <span class="link-label">${link.name}</span>
     </a>`;
 }
 
