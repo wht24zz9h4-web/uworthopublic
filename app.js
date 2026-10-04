@@ -15,15 +15,15 @@ const categories = [
   {
     id: 'Google', title: 'Google', icon: '▱', size: 'small',
     links: [
-      { name: 'Drive', url: 'https://drive.google.com', icon: 'https://cdn.simpleicons.org/googledrive' },
-      { name: 'Calendar', url: 'https://calendar.google.com', icon: 'https://cdn.simpleicons.org/googlecalendar' },
+      { name: 'Drive', url: 'https://drive.google.com', icon: 'https://www.gstatic.com/images/branding/productlogos/drive_2026/v1/web-48dp/logo_drive_2026_color_2x_web_48dp.png' },
+      { name: 'Calendar', url: 'https://calendar.google.com', icon: 'https://play-lh.googleusercontent.com/vEoqLbT_QkYcEaawWBRc22N6i98OUtOUpM1LmKdVs_xx7lCsUyFfV0ZiqoUXjMijUteiBhhN4K5MpoF96FRNOg=w480-h960-rw' },
     ]
   },
   {
     id: 'Remote Access', title: 'Remote Access', icon: '▥', size: 'small',
     links: [
-      { name: 'Epic', url: 'https://access.uwmedicine.org/', fallback: 'EPIC' },
-      { name: 'CPRS', url: 'https://citrixaccess.va.gov/', fallback: 'CPRS' },
+      { name: 'Epic', url: 'https://access.uwmedicine.org/', icon: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Epic_Systems.svg/1920px-Epic_Systems.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20220204054501' },
+      { name: 'CPRS', url: 'https://citrixaccess.va.gov/', icon: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original' },
     ]
   },
   {
