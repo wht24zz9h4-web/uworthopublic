@@ -65,7 +65,12 @@ kbd { padding: 2px 6px; border: 1px solid rgba(255,255,255,.13); border-radius: 
 .card-heading { display: flex; align-items: center; gap: 8px; margin-bottom: 20px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
 .heading-icon { width: 17px; height: 17px; display: grid; place-items: center; font-size: 15px; opacity: .95; }
 .card.microsoft .card-heading { color: #7dd3fc; } .card.google .card-heading { color: #fca5a5; } .card.remote .card-heading { color: #6ee7b7; } .card.admin .card-heading { color: #fdba74; } .card.internal .card-heading { color: #c4b5fd; } .card.references .card-heading { color: #f9a8d4; }
-.link-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 26px 20px; align-items: start; }
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 26px 20px;
+  align-items: start;
+}
 .card.small .link-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
 .link-tile { min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 10px; color: #fff; text-decoration: none; text-align: center; }
 .logo-wrap { position: relative; width: 100%; max-width: 104px; aspect-ratio: 1; display: grid; place-items: center; overflow: hidden; padding: 12px; border-radius: 26px; background: #fff; box-shadow: 0 14px 34px rgba(0,0,0,.30); transition: transform .2s ease, box-shadow .2s ease; }
