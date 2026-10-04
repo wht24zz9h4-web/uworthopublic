@@ -6,10 +6,10 @@ const categories = [
   {
     id: 'Microsoft', title: 'Microsoft', icon: '▦', size: 'large',
     links: [
-      { name: 'Outlook', url: 'https://outlook.com/uw.edu', icon: 'https://cdn.simpleicons.org/microsoftoutlook' },
-      { name: 'Teams', url: 'https://www.office.com/launch/teams', icon: 'https://cdn.simpleicons.org/microsoftteams' },
-      { name: 'OneDrive', url: 'https://www.office.com/launch/onedrive', icon: 'https://cdn.simpleicons.org/microsoftonedrive' },
-      { name: 'OneNote', url: 'https://www.office.com/launch/onenote', icon: 'https://cdn.simpleicons.org/microsoftonenote' },
+      { name: 'Outlook', url: 'https://outlook.com/uw.edu', icon: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Microsoft_Office_Outlook_%282018%E2%80%932024%29.svg/1280px-Microsoft_Office_Outlook_%282018%E2%80%932024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20230309112740' },
+      { name: 'Teams', url: 'https://www.office.com/launch/teams', icon: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Microsoft_Office_Teams_%282025%E2%80%93present%29.svg/1280px-Microsoft_Office_Teams_%282025%E2%80%93present%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20251029013601' },
+      { name: 'OneDrive', url: 'https://www.office.com/launch/onedrive', icon: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Microsoft_OneDrive_Icon_%282025_-_present%29.svg/1280px-Microsoft_OneDrive_Icon_%282025_-_present%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20251004085618' },
+      { name: 'OneNote', url: 'https://www.office.com/launch/onenote', icon: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_OneNote_Icon_%282025_-_present%29.svg/1280px-Microsoft_OneNote_Icon_%282025_-_present%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20251004083752' },
     ]
   },
   {
@@ -23,14 +23,14 @@ const categories = [
     id: 'Remote Access', title: 'Remote Access', icon: '▥', size: 'small',
     links: [
       { name: 'Epic', url: 'https://access.uwmedicine.org/', icon: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Epic_Systems.svg/1920px-Epic_Systems.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20220204054501' },
-      { name: 'CPRS', url: 'https://citrixaccess.va.gov/', icon: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original' },
+      { name: 'CPRS', url: 'https://citrixaccess.va.gov/', icon: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg/1280px-Seal_of_the_U.S._Department_of_Veterans_Affairs.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20150312072903' },
     ]
   },
   {
     id: 'Administration', title: 'Administration', icon: '▣', size: 'normal',
     links: [
-      { name: 'MedHub', url: 'https://uw.medhub.com', icon: 'https://cdn.simpleicons.org/medhub', fallback: 'MH' },
-      { name: 'Workday', url: 'https://wd5.myworkday.com/uw/login.htmld', icon: 'https://cdn.simpleicons.org/workday', fallback: 'WD' },
+      { name: 'MedHub', url: 'https://uw.medhub.com', icon: 'https://play-lh.googleusercontent.com/0xex_4lzAfUfmPuq6u_QXg8eNw0-kg6VsXmmH5vkW3ETIMjgzhMPUVQXH9Q-yV-nHuscYMuoQgnzMVE_0Snd6Q=w480-h960-rw', fallback: 'MH' },
+      { name: 'Workday', url: 'https://wd5.myworkday.com/uw/login.htmld', icon: 'https://play-lh.googleusercontent.com/LBHcPFTCkeRM-9jbBSE4ittd6ZyIUJ7fcqrWMf-YyIJHFxNT4gyaF9pIvQ59hc-LeLgAiVd_Bdy1moNJErEdJA=w480-h960-rw', fallback: 'WD' },
       { name: 'ABOS KSB', url: 'https://www.abos.org/ksb/', icon: 'https://www.abos.org/ksb/images/main-logo.svg', fallback: 'ABOS' },
     ]
   },
