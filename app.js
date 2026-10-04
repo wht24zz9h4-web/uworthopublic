@@ -13,7 +13,7 @@ const categories = [
     ]
   },
   {
-    id: 'Google', title: 'Google', icon: '▱', size: 'small',
+    id: 'Google', title: 'Google', icon: '▧', size: 'large',
     links: [
       { name: 'Drive', url: 'https://drive.google.com', icon: 'https://www.gstatic.com/images/branding/productlogos/drive_2026/v1/web-48dp/logo_drive_2026_color_2x_web_48dp.png' },
       { name: 'Calendar', url: 'https://calendar.google.com', icon: 'https://play-lh.googleusercontent.com/vEoqLbT_QkYcEaawWBRc22N6i98OUtOUpM1LmKdVs_xx7lCsUyFfV0ZiqoUXjMijUteiBhhN4K5MpoF96FRNOg=w480-h960-rw' },
