@@ -35,7 +35,7 @@ const categories = [
     ]
   },
   {
-    id: 'Internal', title: 'Internal', icon: '▤', size: 'large',
+    id: 'Internal', title: 'Internal', icon: '▨', size: 'large',
     links: [
       { name: '26-27 MMC Schedule', url: 'https://uwnetid-my.sharepoint.com/:x:/r/personal/resdrive_uw_edu/_layouts/15/Doc.aspx?sourcedoc=%7BC3E26CC3-D6BF-4122-8E5E-3051D9332825%7D&file=MMC_Schedule_2026-2027.xlsx&action=default&mobileredirect=true', icon: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Teaching_icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original'},
       { name: 'Consents', url: 'https://uwnetid-my.sharepoint.com/shared?id=%2Fpersonal%2Fresdrive%5Fuw%5Fedu%2FDocuments%2FOrthoResidents%2FConsents&listurl=%2Fpersonal%2Fresdrive%5Fuw%5Fedu%2FDocuments&viewid=520a7a95%2D453c%2D4e92%2D99d3%2D11920ae3016e&sharingv2=true&fromShare=true&at=9&FolderCTID=0x01200021EF5A5B7D1AFC44A9869B207698D475', icon: 'https://thumbs.dreamstime.com/z/information-consent-vector-man-signs-form-businessman-signs-document-clipboard-hand-illustration-flat-design-medical-97659403.jpg?ct=jpeg'},
