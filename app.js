@@ -46,10 +46,10 @@ const categories = [
   {
     id: 'References', title: 'References', icon: '▤', size: 'large',
     links: [
-      { name: 'AO CMF', url: 'https://surgeryreference.aofoundation.org/cmf', fallback: 'AO' },
+      { name: 'AO', url: 'https://surgeryreference.aofoundation.org/', fallback: 'AO' },
       { name: 'PubMed', url: 'https://pubmed.ncbi.nlm.nih.gov', icon: 'https://cdn.simpleicons.org/pubmed', fallback: 'PM' },
       { name: 'UpToDate', url: 'https://www.uptodate.com/contents/search', fallback: 'UTD' },
-      { name: 'Wolters', url: 'https://wolterskluwer.vitalsource.com/home/my-library', fallback: 'WK' },
+      { name: 'Orthobullets', url: 'https://www.orthobullets.com/', fallback: 'OB' },
     ]
   }
 ];
