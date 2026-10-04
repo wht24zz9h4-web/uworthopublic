@@ -37,19 +37,18 @@ const categories = [
   {
     id: 'Internal', title: 'Internal', icon: '▤', size: 'large',
     links: [
-      { name: 'Didactics Conference', url: 'https://washington.zoom.us/j/2757122822?pwd=3r9EwfBqxpywLm0haa0XGC4sF7Qa4c.1#success', fallback: 'DC' },
       { name: 'UW Clinical Toolkit', url: 'https://services.uwmedicine.org/clinicaltoolkit/public/', fallback: 'UW' },
-      { name: 'Conference Form', url: 'https://forms.cloud.microsoft/pages/responsepage.aspx?id=W9229i_wGkSZoBYqxQYL0htMLtqjVflJioZWBrTaKIFUMzNMOFpUQk9SSUxTVFZDSDVYNlhSV1VKSy4u&route=shorturl', fallback: 'FORM' },
-      { name: 'NCL Form', url: 'https://forms.cloud.microsoft/pages/responsepage.aspx?id=W9229i_wGkSZoBYqxQYL0mEnZkV3JElNvmOe7I0ENyxUMUFIVzVDS0c2OEc1VThFRVUwQkIzOUxNNi4u&route=shorturl', fallback: 'NCL' },
+      { name: 'Consents', url: 'https://uwnetid-my.sharepoint.com/shared?id=%2Fpersonal%2Fresdrive%5Fuw%5Fedu%2FDocuments%2FOrthoResidents%2FConsents&listurl=%2Fpersonal%2Fresdrive%5Fuw%5Fedu%2FDocuments&viewid=520a7a95%2D453c%2D4e92%2D99d3%2D11920ae3016e&sharingv2=true&fromShare=true&at=9&FolderCTID=0x01200021EF5A5B7D1AFC44A9869B207698D475', fallback: 'Consent Forms' },
+      { name: 'MS Evals', url: 'https://uwnetid-my.sharepoint.com/shared?id=%2Fpersonal%2Fresdrive%5Fuw%5Fedu%2FDocuments%2FOrthoResidents%2FMedical%20Students%2FMed%20Student%20Evals&listurl=%2Fpersonal%2Fresdrive%5Fuw%5Fedu%2FDocuments&viewid=520a7a95%2D453c%2D4e92%2D99d3%2D11920ae3016e&sharingv2=true&fromShare=true&at=9&FolderCTID=0x01200021EF5A5B7D1AFC44A9869B207698D475', fallback: 'MS Evals' },
     ]
   },
   {
     id: 'References', title: 'References', icon: '▤', size: 'large',
     links: [
-      { name: 'AO', url: 'https://surgeryreference.aofoundation.org/', fallback: 'AO' },
-      { name: 'PubMed', url: 'https://pubmed.ncbi.nlm.nih.gov', icon: 'https://cdn.simpleicons.org/pubmed', fallback: 'PM' },
-      { name: 'UpToDate', url: 'https://www.uptodate.com/contents/search', fallback: 'UTD' },
-      { name: 'Orthobullets', url: 'https://www.orthobullets.com/', fallback: 'OB' },
+      { name: 'AO', url: 'https://surgeryreference.aofoundation.org/', icon:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjbNrXHe1zeR83Aj_Rtz3u_tqFAI7zz-KvrpVVT5NZZnoOd6t1srtEF5Li&s=10', fallback: 'AO' },
+      { name: 'PubMed', url: 'https://pubmed.ncbi.nlm.nih.gov', icon: 'https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/299427525_371359955183831_7267190866136753692_n.jpg?stp=dst-jpg_tt6&cstp=mx300x300&ctp=s300x300&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=U7rRh2FzIiEQ7kNvwF9sUui&_nc_oc=Adrc1eo6TuFa9ROiEo4YpOzqHMYXYurhALa1XTOh1cIXjOcneiKFfHnvb_2XUFe0ifw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=1oYJHxxulxR2doTNVkWW0w&_nc_ss=7b289&oh=00_AQPdZm_0zcE8XizRc0o1ngFA7Bmf6CLJghPgT7avhdVndw&oe=6AC7998A', fallback: 'PM' },
+      { name: 'UpToDate', url: 'https://www.uptodate.com/contents/search', icon: 'https://play-lh.googleusercontent.com/4HvKcM4Ob2v-3y-5ogX_p_6x_iAMNgeMFvWdXPh2E_epsRgPBVGQirtyxlFnFu2jaIboYwC0UHn3FS7vEGge=w480-h960-rw', fallback: 'UTD' },
+      { name: 'Orthobullets', url: 'https://www.orthobullets.com/', url: 'https://media.licdn.com/dms/image/v2/C4D0BAQEH1fnmZdftZg/company-logo_200_200/company-logo_200_200/0/1630550717571/orthobullets_logo?e=2147483647&v=beta&t=qnaMhRzsYzprg2tuSIWAbdthTDJInITO2CT3RAuEbMk', fallback: 'OB' },
     ]
   }
 ];
