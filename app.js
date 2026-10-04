@@ -49,7 +49,7 @@ const categories = [
       { name: 'PubMed', url: 'https://pubmed.ncbi.nlm.nih.gov', icon: 'https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/299427525_371359955183831_7267190866136753692_n.jpg?stp=dst-jpg_tt6&cstp=mx300x300&ctp=s300x300&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=U7rRh2FzIiEQ7kNvwF9sUui&_nc_oc=Adrc1eo6TuFa9ROiEo4YpOzqHMYXYurhALa1XTOh1cIXjOcneiKFfHnvb_2XUFe0ifw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=1oYJHxxulxR2doTNVkWW0w&_nc_ss=7b289&oh=00_AQPdZm_0zcE8XizRc0o1ngFA7Bmf6CLJghPgT7avhdVndw&oe=6AC7998A'},
       { name: 'UpToDate', url: 'https://www.uptodate.com/contents/search', icon: 'https://play-lh.googleusercontent.com/4HvKcM4Ob2v-3y-5ogX_p_6x_iAMNgeMFvWdXPh2E_epsRgPBVGQirtyxlFnFu2jaIboYwC0UHn3FS7vEGge=w480-h960-rw'},
       { name: 'Orthobullets', url: 'https://www.orthobullets.com/', icon: 'https://cdn.brandfetch.io/idtad9wrmE/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B'},
-      { name: 'UW ChatGPT', url: 'https://chat.uwmedicine.org/', icon: 'https://chat.uwmedicine.org/api/v1/models/model/profile/image?id=gpt-5.3-chat&lang=en-US'},
+      { name: 'UW MedGPT', url: 'https://chat.uwmedicine.org/', icon: 'https://static.vecteezy.com/system/resources/previews/022/227/358/non_2x/openai-chatgpt-logo-icon-free-png.png'},
       { name: 'AAOS Res Study', url: 'https://learn.aaos.org/', icon: 'https://www.aaos.org/globalassets/education/rock/residentbundle_logos_resstudy.png'},
     ]
   }
