@@ -77,7 +77,6 @@ function linkTemplate(link) {
        data-name="${link.name.toLowerCase()}" aria-label="Open ${link.name}">
       <div class="logo-wrap">
         <img src="${link.icon}" alt="${link.name} logo" loading="lazy">
-        <span class="fallback-logo" ${link.icon ? 'hidden' : ''}>${initials}</span>
         <span class="external" aria-hidden="true">↗</span>
       </div>
     </a>`;
