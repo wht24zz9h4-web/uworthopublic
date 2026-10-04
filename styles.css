@@ -76,7 +76,6 @@ kbd { padding: 2px 6px; border: 1px solid rgba(255,255,255,.13); border-radius: 
 .logo-wrap { position: relative; width: 100%; max-width: 104px; aspect-ratio: 1; display: grid; place-items: center; overflow: hidden; padding: 12px; border-radius: 26px; background: #fff; box-shadow: 0 14px 34px rgba(0,0,0,.30); transition: transform .2s ease, box-shadow .2s ease; }
 .logo-wrap::before { content: ""; position: absolute; inset: 4px 12px auto; height: 25%; border-radius: 999px; background: rgba(255,255,255,.82); filter: blur(10px); }
 .logo-wrap img { position: relative; width: 82%; height: 82%; object-fit: contain; }
-.fallback-logo { position: relative; display: grid; place-items: center; width: 82%; height: 82%; border-radius: 18px; color: #26304c; font-weight: 800; font-size: 21px; background: linear-gradient(135deg,#e9eefc,#fff); }
 .external { position: absolute; top: 10px; right: 10px; color: transparent; font-size: 12px; transition: color .2s; }
 .link-tile:hover .logo-wrap { transform: translateY(-4px) scale(1.04); box-shadow: 0 24px 65px rgba(0,0,0,.42); }
 .link-tile:hover .external { color: rgba(71,85,105,.70); }
