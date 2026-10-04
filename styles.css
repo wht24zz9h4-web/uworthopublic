@@ -38,8 +38,8 @@ button { color: inherit; }
   flex-shrink: 0;
 }
 .brand-mark img {
-  width: 28px;
-  height: 28px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
   display: block;
 }
