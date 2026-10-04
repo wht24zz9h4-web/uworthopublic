@@ -1,4 +1,4 @@
-# UWPRS Link Dashboard — GitHub Pages Mirror
+# UW Ortho Link Dashboard — GitHub Pages Mirror
 
 A clean, dependency-light recreation of the UWPRS link dashboard based on the inspected HTML supplied with this project.
 
