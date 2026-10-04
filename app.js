@@ -37,7 +37,7 @@ const categories = [
   {
     id: 'Internal', title: 'Internal', icon: '▤', size: 'large',
     links: [
-      { name: 'Occam', url: 'https://occam.uwmedicine.org/', icon: 'https://play-lh.googleusercontent.com/p4X81hOFqUbe6M367b9gtX1-jTT2-txSxKeMrMmw4ax07cOHA1ZVqIVcgWqBx8ogw2MnAO3yfABhmm3W1IFI=w480-h960-rw'},
+      { name: '26-27 MMC Schedule', url: 'https://uwnetid-my.sharepoint.com/:x:/r/personal/resdrive_uw_edu/_layouts/15/Doc.aspx?sourcedoc=%7BC3E26CC3-D6BF-4122-8E5E-3051D9332825%7D&file=MMC_Schedule_2026-2027.xlsx&action=default&mobileredirect=true', icon: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Teaching_icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original'},
       { name: 'Consents', url: 'https://uwnetid-my.sharepoint.com/shared?id=%2Fpersonal%2Fresdrive%5Fuw%5Fedu%2FDocuments%2FOrthoResidents%2FConsents&listurl=%2Fpersonal%2Fresdrive%5Fuw%5Fedu%2FDocuments&viewid=520a7a95%2D453c%2D4e92%2D99d3%2D11920ae3016e&sharingv2=true&fromShare=true&at=9&FolderCTID=0x01200021EF5A5B7D1AFC44A9869B207698D475', icon: 'https://thumbs.dreamstime.com/z/information-consent-vector-man-signs-form-businessman-signs-document-clipboard-hand-illustration-flat-design-medical-97659403.jpg?ct=jpeg'},
       { name: 'MS Evals', url: 'https://uwnetid-my.sharepoint.com/shared?id=%2Fpersonal%2Fresdrive%5Fuw%5Fedu%2FDocuments%2FOrthoResidents%2FMedical%20Students%2FMed%20Student%20Evals&listurl=%2Fpersonal%2Fresdrive%5Fuw%5Fedu%2FDocuments&viewid=520a7a95%2D453c%2D4e92%2D99d3%2D11920ae3016e&sharingv2=true&fromShare=true&at=9&FolderCTID=0x01200021EF5A5B7D1AFC44A9869B207698D475', icon: 'https://thumbs.dreamstime.com/z/review-stamp-word-circle-product-evaluation-rating-criticism-to-illustrate-service-feedback-comment-assessment-48440751.jpg?ct=jpeg'},
     ]
@@ -46,10 +46,10 @@ const categories = [
     id: 'References', title: 'References', icon: '▤', size: 'large',
     links: [
       { name: 'AO', url: 'https://surgeryreference.aofoundation.org/', icon:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjbNrXHe1zeR83Aj_Rtz3u_tqFAI7zz-KvrpVVT5NZZnoOd6t1srtEF5Li&s=10'},
-      { name: 'PubMed', url: 'https://pubmed.ncbi.nlm.nih.gov', icon: 'https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/299427525_371359955183831_7267190866136753692_n.jpg?stp=dst-jpg_tt6&cstp=mx300x300&ctp=s300x300&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=U7rRh2FzIiEQ7kNvwF9sUui&_nc_oc=Adrc1eo6TuFa9ROiEo4YpOzqHMYXYurhALa1XTOh1cIXjOcneiKFfHnvb_2XUFe0ifw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=1oYJHxxulxR2doTNVkWW0w&_nc_ss=7b289&oh=00_AQPdZm_0zcE8XizRc0o1ngFA7Bmf6CLJghPgT7avhdVndw&oe=6AC7998A'},
-      { name: 'UpToDate', url: 'https://www.uptodate.com/contents/search', icon: 'https://play-lh.googleusercontent.com/4HvKcM4Ob2v-3y-5ogX_p_6x_iAMNgeMFvWdXPh2E_epsRgPBVGQirtyxlFnFu2jaIboYwC0UHn3FS7vEGge=w480-h960-rw'},
-      { name: 'Orthobullets', url: 'https://www.orthobullets.com/', icon: 'https://cdn.brandfetch.io/idtad9wrmE/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B'},
+      { name: 'OCCAM', url: 'https://occam.uwmedicine.org/', icon: 'https://play-lh.googleusercontent.com/p4X81hOFqUbe6M367b9gtX1-jTT2-txSxKeMrMmw4ax07cOHA1ZVqIVcgWqBx8ogw2MnAO3yfABhmm3W1IFI=w480-h960-rw'},
+      { name: 'Open Evidence', url: 'https://www.openevidence.com/', icon: 'https://pbs.twimg.com/profile_images/1735286803777683456/3F_Hr4iA_400x400.jpg'},
       { name: 'UW MedGPT', url: 'https://chat.uwmedicine.org/', icon: 'https://static.vecteezy.com/system/resources/previews/022/227/358/non_2x/openai-chatgpt-logo-icon-free-png.png'},
+      { name: 'Orthobullets', url: 'https://www.orthobullets.com/', icon: 'https://cdn.brandfetch.io/idtad9wrmE/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B'},
       { name: 'AAOS Res Study', url: 'https://learn.aaos.org/', icon: 'https://www.aaos.org/globalassets/education/rock/residentbundle_logos_resstudy.png'},
     ]
   }
