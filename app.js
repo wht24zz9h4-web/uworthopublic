@@ -72,12 +72,11 @@ function cardTemplate(category) {
 }
 
 function linkTemplate(link) {
-  const initials = link.fallback || link.name.split(/\s+/).map(x => x[0]).join('').slice(0,4).toUpperCase();
   return `
     <a class="link-tile" href="${link.url}" target="_blank" rel="noopener noreferrer"
        data-name="${link.name.toLowerCase()}" aria-label="Open ${link.name}">
       <div class="logo-wrap">
-        ${link.icon ? `<img src="${link.icon}" alt="${link.name} logo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.hidden=false">` : ''}
+        <img src="${link.icon}" alt="${link.name} logo" loading="lazy">
         <span class="fallback-logo" ${link.icon ? 'hidden' : ''}>${initials}</span>
         <span class="external" aria-hidden="true">↗</span>
       </div>
