@@ -81,7 +81,6 @@ function linkTemplate(link) {
         <span class="fallback-logo" ${link.icon ? 'hidden' : ''}>${initials}</span>
         <span class="external" aria-hidden="true">↗</span>
       </div>
-      <span class="link-label">${link.name}</span>
     </a>`;
 }
 
