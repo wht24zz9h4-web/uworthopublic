@@ -45,10 +45,10 @@ const categories = [
   {
     id: 'References', title: 'References', icon: '▤', size: 'large',
     links: [
-      { name: 'AO', url: 'https://surgeryreference.aofoundation.org/', icon:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjbNrXHe1zeR83Aj_Rtz3u_tqFAI7zz-KvrpVVT5NZZnoOd6t1srtEF5Li&s=10', fallback: 'AO' },
-      { name: 'PubMed', url: 'https://pubmed.ncbi.nlm.nih.gov', icon: 'https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/299427525_371359955183831_7267190866136753692_n.jpg?stp=dst-jpg_tt6&cstp=mx300x300&ctp=s300x300&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=U7rRh2FzIiEQ7kNvwF9sUui&_nc_oc=Adrc1eo6TuFa9ROiEo4YpOzqHMYXYurhALa1XTOh1cIXjOcneiKFfHnvb_2XUFe0ifw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=1oYJHxxulxR2doTNVkWW0w&_nc_ss=7b289&oh=00_AQPdZm_0zcE8XizRc0o1ngFA7Bmf6CLJghPgT7avhdVndw&oe=6AC7998A', fallback: 'PM' },
-      { name: 'UpToDate', url: 'https://www.uptodate.com/contents/search', icon: 'https://play-lh.googleusercontent.com/4HvKcM4Ob2v-3y-5ogX_p_6x_iAMNgeMFvWdXPh2E_epsRgPBVGQirtyxlFnFu2jaIboYwC0UHn3FS7vEGge=w480-h960-rw', fallback: 'UTD' },
-      { name: 'Orthobullets', url: 'https://www.orthobullets.com/', url: 'https://media.licdn.com/dms/image/v2/C4D0BAQEH1fnmZdftZg/company-logo_200_200/company-logo_200_200/0/1630550717571/orthobullets_logo?e=2147483647&v=beta&t=qnaMhRzsYzprg2tuSIWAbdthTDJInITO2CT3RAuEbMk', fallback: 'OB' },
+      { name: 'AO', url: 'https://surgeryreference.aofoundation.org/', icon:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjbNrXHe1zeR83Aj_Rtz3u_tqFAI7zz-KvrpVVT5NZZnoOd6t1srtEF5Li&s=10'},
+      { name: 'PubMed', url: 'https://pubmed.ncbi.nlm.nih.gov', icon: 'https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/299427525_371359955183831_7267190866136753692_n.jpg?stp=dst-jpg_tt6&cstp=mx300x300&ctp=s300x300&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=U7rRh2FzIiEQ7kNvwF9sUui&_nc_oc=Adrc1eo6TuFa9ROiEo4YpOzqHMYXYurhALa1XTOh1cIXjOcneiKFfHnvb_2XUFe0ifw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=1oYJHxxulxR2doTNVkWW0w&_nc_ss=7b289&oh=00_AQPdZm_0zcE8XizRc0o1ngFA7Bmf6CLJghPgT7avhdVndw&oe=6AC7998A'},
+      { name: 'UpToDate', url: 'https://www.uptodate.com/contents/search', icon: 'https://play-lh.googleusercontent.com/4HvKcM4Ob2v-3y-5ogX_p_6x_iAMNgeMFvWdXPh2E_epsRgPBVGQirtyxlFnFu2jaIboYwC0UHn3FS7vEGge=w480-h960-rw'},
+      { name: 'Orthobullets', url: 'https://www.orthobullets.com/', url: 'https://media.licdn.com/dms/image/v2/C4D0BAQEH1fnmZdftZg/company-logo_200_200/company-logo_200_200/0/1630550717571/orthobullets_logo?e=2147483647&v=beta&t=qnaMhRzsYzprg2tuSIWAbdthTDJInITO2CT3RAuEbMk'},
     ]
   }
 ];
