@@ -152,4 +152,16 @@ document.addEventListener('keydown', event => {
   }
 });
 
+const datetimeEl = document.querySelector('#datetime');
+
+function updateDateTime() {
+  const now = new Date();
+  const date = now.toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+  const time = now.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' });
+  datetimeEl.textContent = `${date} · ${time}`;
+}
+
+updateDateTime();
+setInterval(updateDateTime, 1000);
+
 render();
