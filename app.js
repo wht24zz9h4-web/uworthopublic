@@ -13,10 +13,9 @@ const categories = [
     ]
   },
   {
-    id: 'Google', title: 'Google', icon: '▧', size: 'large',
+    id: 'Hand', title: 'Hand', icon: '▧', size: 'large',
     links: [
-      { name: 'Drive', url: 'https://drive.google.com', icon: 'https://www.gstatic.com/images/branding/productlogos/drive_2026/v1/web-48dp/logo_drive_2026_color_2x_web_48dp.png' },
-      { name: 'Calendar', url: 'https://calendar.google.com', icon: 'https://play-lh.googleusercontent.com/vEoqLbT_QkYcEaawWBRc22N6i98OUtOUpM1LmKdVs_xx7lCsUyFfV0ZiqoUXjMijUteiBhhN4K5MpoF96FRNOg=w480-h960-rw' },
+      { name: 'Trauma Train', url: 'https://uwnetid-my.sharepoint.com/:x:/r/personal/handteam_uw_edu/_layouts/15/Doc.aspx?sourcedoc=%7B72706E22-C66A-4E9F-8449-3F96C27F557B%7D&amp;file=Hand%20Consults%20and%20Trauma%20Train%20-%20Current.xlsx', icon: 'https://nwsurgery.net/wp-content/uploads/2021/01/specialty-icons-hand-500.png' },
     ]
   },
   {
@@ -24,6 +23,7 @@ const categories = [
     links: [
       { name: 'Epic', url: 'https://access.uwmedicine.org/', icon: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Epic_Systems.svg/1920px-Epic_Systems.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20220204054501' },
       { name: 'CPRS', url: 'https://citrixaccess.va.gov/', icon: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg/1280px-Seal_of_the_U.S._Department_of_Veterans_Affairs.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20150312072903' },
+      { name: 'PENDING', url: '-', icon: 'https://play-lh.googleusercontent.com/CVUa9-s19a5ub0NMPtUoIVUbxS56Le2aroYpGGQK99PCHJR-C_5pjlOyNCSeguFs8dkrinYXogy1IamnKBww' },
     ]
   },
   {
