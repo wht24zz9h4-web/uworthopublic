@@ -66,7 +66,7 @@ let activeFilter = 'all';
 function cardTemplate(category) {
   const sizeClass = category.size === 'small' ? 'small' : '';
   return `
-    <section class="card ${category.id.toLowerCase().replaceAll(' ', '-')} ${sizeClass}" data-category="${category.id}">
+    <section class="card ${category.id.toLowerCase().replaceAll(' ', '-')} ${sizeClass}" data-category="${category.id}" style="--count: ${category.links.length}">
       <div class="card-heading"><span class="heading-icon">${category.icon}</span>${category.title}</div>
       <div class="link-grid">
         ${category.links.map(linkTemplate).join('')}
