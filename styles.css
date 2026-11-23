@@ -7,6 +7,7 @@
   --muted: rgba(255,255,255,.70);
   --faint: rgba(255,255,255,.40);
   --shadow: 0 24px 80px rgba(0,0,0,.22);
+  --icon-max: 104px; /* largest size for link icons */
 }
 
 * { box-sizing: border-box; }
@@ -79,10 +80,11 @@ kbd { padding: 2px 6px; border: 1px solid rgba(255,255,255,.13); border-radius: 
 .dashboard-grid { display: grid; gap: 12px; }
 .row-top, .row-two { display: flex; gap: 12px; }
 /* Cards in the first two rows grow in proportion to their link count, so every tile gets the same width and each card stays one row. */
-.row-top .card, .row-two .card { --tile-gap: 12px; flex: var(--count, 1) 1 calc((var(--count, 1) - 1) * var(--tile-gap)); }
+.row-top .card, .row-two .card { --tile-gap: 12px; flex: var(--count, 1) 1 calc((var(--count, 1) - 1) * var(--tile-gap) + 42px); } /* 42px = card padding + border */
 .row-top .link-grid, .row-two .link-grid { grid-template-columns: repeat(var(--count, 1), minmax(0, 1fr)); column-gap: var(--tile-gap); }
-/* Keep icons at full size; on tighter screens they may use a few px of the gap rather than shrink. */
-@media (min-width: 900px) { .row-top .logo-wrap, .row-two .logo-wrap { width: 82px; flex-shrink: 0; } }
+/* Every icon on the page shares one size: as large as the top row allows, between 82px and --icon-max. */
+.dashboard-grid { container-type: inline-size; }
+@media (min-width: 900px) { .dashboard-grid .logo-wrap { width: clamp(82px, (100cqw - 210px) / 8, var(--icon-max)); max-width: none; flex-shrink: 0; } }
 .row-three {
   display: block;
   width: 100%;
@@ -106,7 +108,7 @@ kbd { padding: 2px 6px; border: 1px solid rgba(255,255,255,.13); border-radius: 
   align-items: start;
 }
 .link-tile { min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 10px; color: #fff; text-decoration: none; text-align: center; }
-.logo-wrap { position: relative; width: 100%; max-width: 104px; aspect-ratio: 1; display: grid; place-items: center; overflow: hidden; padding: 12px; border-radius: 26px; background: #fff; box-shadow: 0 14px 34px rgba(0,0,0,.30); transition: transform .2s ease, box-shadow .2s ease; }
+.logo-wrap { position: relative; width: 100%; max-width: var(--icon-max); aspect-ratio: 1; display: grid; place-items: center; overflow: hidden; padding: 12px; border-radius: 26px; background: #fff; box-shadow: 0 14px 34px rgba(0,0,0,.30); transition: transform .2s ease, box-shadow .2s ease; }
 .logo-wrap::before { content: ""; position: absolute; inset: 4px 12px auto; height: 25%; border-radius: 999px; background: rgba(255,255,255,.82); filter: blur(10px); }
 .logo-wrap img { position: relative; width: 82%; height: 82%; object-fit: contain; }
 .external { position: absolute; top: 10px; right: 10px; color: transparent; font-size: 12px; transition: color .2s; }
